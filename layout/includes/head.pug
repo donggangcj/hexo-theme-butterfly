@@ -95,6 +95,9 @@ include ./head/comment.pug
 if theme.blog_title_font.font_link
   link(rel='stylesheet', href=url_for(theme.blog_title_font.font_link))
 
+link(rel='stylesheet', href=url_for('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@500&display=swap'))
+
+
 //- global config
 !=partial('includes/head/config', {}, {cache:theme.fragment_cache})
 
